@@ -49,7 +49,8 @@ Data hails for [My Project](https://lukebarousse.com). It is packed with insight
  salary_year_avg DESC
  LIMIT 10 ;
  ```
-![Top paying Roles](Assests\01_top_paying_jobs.png)
+<img width="1000" height="600" alt="01_top_paying_jobs" src="https://github.com/user-attachments/assets/b4ecc820-df13-40f2-bd2c-e55b33ce2cf9" />
+
  * Bar graph visualizing the result 
 
 ### 2. Top Paying Job-Skills
@@ -82,7 +83,8 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
 salary_year_avg DESC;
 ```
-![Top Paying Job-Skills](Assests\02_top_paying_data_analyst_skills.png)
+<img width="1000" height="600" alt="02_top_paying_data_analyst_skills" src="https://github.com/user-attachments/assets/d393086b-1821-40e3-a86c-f22ae4477286" />
+
 * Bar graph visualizing the result 
 
 ### 3. Top Demanded Skills
@@ -102,7 +104,8 @@ This query helped identify  the skills most frequently requested in data analyst
  ORDER BY demand_count DESC
   LIMIT 5;
 ```
-![Top Demanded Skills](Assests\03_top_demanded_skills.png)
+<img width="1000" height="600" alt="03_top_demanded_skills" src="https://github.com/user-attachments/assets/b83580bb-336b-4d51-ae2f-d7a25384dbcb" />
+
 * Bar graph visualizing result 
 
 ### 4. Top Paying Skills 
@@ -124,7 +127,9 @@ This query helped identify  the skills most frequently requested in data analyst
  Avg_Salary DESC
   LIMIT 20;
 ```
-![Top Paying Skill](Assests\04_top_paying_skills.png)
+
+<img width="1200" height="700" alt="04_top_paying_skills" src="https://github.com/user-attachments/assets/c522d40f-5ceb-495e-9e6a-5066ffe09faf" />
+
 * Bar graph showing result 
 
 
